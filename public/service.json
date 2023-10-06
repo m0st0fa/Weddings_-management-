@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "WEDDING REGISTRY",
+      "description": "Helping you create a comprehensive wedding registry, covering all aspects of your special day, from venue selection to the last dance.",
+      "price": 5000,
+      "image": "https://i.ibb.co/z8KqcvG/author1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "OUR LOVELY BANDS",
+      "description": "Assisting on your wedding day to ensure all musical plans run smoothly and according to schedule.",
+      "price": 1500,
+      "image": "https://i.ibb.co/zNcr7t6/author2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "THE PERFECT CAKE",
+      "description": "Providing guidance and assistance in choosing the perfect wedding cake that aligns with your vision and preferences for the wedding.",
+      "price": 1000,
+      "image": "https://i.ibb.co/zm29mNH/author3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "TOAST & DANCE",
+      "description": "Offering expert advice and creative ideas to design and style your wedding, enhancing the ambiance and making it a beautiful and memorable occasion.",
+      "price": 1200,
+      "image": "https://i.ibb.co/V9Nb6kR/author4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "THE CEREMONY",
+      "description": "Coordinating and planning the wedding ceremony meticulously, ensuring it runs smoothly and creating a delectable menu that suits your taste and budget.",
+      "price": 2500,
+      "image": "https://i.ibb.co/3dmbYZN/author5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "PHOTOGRAPHY",
+      "description": "Arranging professional photography services to capture every special moment of your wedding, ensuring lasting memories and an album filled with love and joy.",
+      "price": 2000,
+      "image": "https://i.ibb.co/tXShBPP/author6.jpg"
+    }
+  ]
+  
