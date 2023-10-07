@@ -1,6 +1,6 @@
 const Banner = () => {
     const bannerStyle = {
-        backgroundImage: 'url("/public/bannern01.png")',
+        backgroundImage: 'url("/public/top-wedding-planners-in-viet-nam-1.jpg")',
     };
     
     return (
@@ -10,8 +10,8 @@ const Banner = () => {
                 style={bannerStyle}>
             </div>
         </div>
+        
     );
 };
 
 export default Banner;
-

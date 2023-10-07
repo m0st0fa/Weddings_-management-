@@ -1,45 +1,44 @@
 [
-    {
-      "id": 1,
-      "title": "WEDDING REGISTRY",
-      "description": "Helping you create a comprehensive wedding registry, covering all aspects of your special day, from venue selection to the last dance.",
-      "price": 5000,
-      "image": "https://i.ibb.co/z8KqcvG/author1.jpg"
-    },
-    {
-      "id": 2,
-      "title": "OUR LOVELY BANDS",
-      "description": "Assisting on your wedding day to ensure all musical plans run smoothly and according to schedule.",
-      "price": 1500,
-      "image": "https://i.ibb.co/zNcr7t6/author2.jpg"
-    },
-    {
-      "id": 3,
-      "title": "THE PERFECT CAKE",
-      "description": "Providing guidance and assistance in choosing the perfect wedding cake that aligns with your vision and preferences for the wedding.",
-      "price": 1000,
-      "image": "https://i.ibb.co/zm29mNH/author3.jpg"
-    },
-    {
-      "id": 4,
-      "title": "TOAST & DANCE",
-      "description": "Offering expert advice and creative ideas to design and style your wedding, enhancing the ambiance and making it a beautiful and memorable occasion.",
-      "price": 1200,
-      "image": "https://i.ibb.co/V9Nb6kR/author4.jpg"
-    },
-    {
-      "id": 5,
-      "title": "THE CEREMONY",
-      "description": "Coordinating and planning the wedding ceremony meticulously, ensuring it runs smoothly and creating a delectable menu that suits your taste and budget.",
-      "price": 2500,
-      "image": "https://i.ibb.co/3dmbYZN/author5.jpg"
-    },
-    {
-      "id": 6,
-      "title": "PHOTOGRAPHY",
-      "description": "Arranging professional photography services to capture every special moment of your wedding, ensuring lasting memories and an album filled with love and joy.",
-      "price": 2000,
-      "image": "https://i.ibb.co/tXShBPP/author6.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "WEDDING REGISTRY",
+    "description": "Create a comprehensive wedding registry that covers all aspects of your special day, from venue selection to the last dance. Our experts will guide you through the process, ensuring your registry reflects your unique style and preferences. When it comes to planning the perfect wedding, a crucial aspect often overlooked is creating a personalized wedding registry. A wedding registry is not merely a list of desired gifts; it's a reflection of your journey as a couple and the unique experiences you wish to share with your loved ones. Our service aims to guide you through this delightful journey of creating a wedding registry that encapsulates the essence of your love story. We believe that every element, from the venue selection to the last dance, should mirror your personalities and preferences. With our expert assistance, we will meticulously curate a registry that aligns with your dreams and desires. A well-crafted wedding registry is a roadmap to your future together, a collection of items that will accompany you as you begin this beautiful chapter of your life. Whether it's selecting the perfect dinnerware that complements your lifestyle or choosing elegant bed linens that promise cozy nights, we'll ensure every item on your registry tells a story, your story. Your wedding registry should reflect not just your current lifestyle but also the life you envision together. It's an opportunity to receive gifts that will enhance your daily life and create cherished memories. We understand the importance of this, and our team is dedicated to assisting you in selecting items that not only showcase your unique style but also stand the test of time. Let us help you curate a wedding registry that will forever be a beautiful reminder of the love and excitement you felt as you planned the beginning of your journey as a married couple.",
+    "price": 5000,
+    "image": "https://i.ibb.co/XbXRyJ6/cermemony-11zon.jpg"
+  },
+  {
+    "id": 2,
+    "title": "OUR LOVELY BANDS",
+    "description": "Experience the magic of live music on your wedding day. Our talented bands will provide exceptional musical performances, tailored to your taste and style. Let the melodies create unforgettable moments during your celebration. One of the most enchanting elements of any wedding celebration is undoubtedly the music. It has the power to transcend words and touch the hearts of all present. Live music, in particular, adds an ethereal dimension to the atmosphere, elevating the overall experience. Our service, \"Our Lovely Bands,\" is all about infusing your wedding day with the magic of live musical performances. We understand that every couple is unique, and so are their musical tastes. From classic ballads to contemporary beats, our talented bands are skilled in a diverse range of genres and styles. We take pride in tailoring the music to resonate with your distinct taste and complement the ambiance you envision for your special day. Picture this: as you walk down the aisle, a beautiful, soul-stirring melody is being played, creating an enchanting aura around you. During the reception, the lively tunes get everyone on their feet, dancing and celebrating the joyous occasion. Our bands are masters at curating playlists that suit each moment of your wedding, making it an unforgettable experience for both you and your guests. Every beat, every note, and every lyric will be carefully selected to resonate with your love story. Our goal is to create an atmosphere where the music becomes an integral part of the memories you'll cherish for a lifetime. Let us help you orchestrate a musical celebration that mirrors the beauty and uniqueness of your love.",
+    "price": 1500,
+    "image": "https://i.ibb.co/NmhdDhX/our-brand.jpg"
+  },
+  {
+    "id": 3,
+    "title": "THE PERFECT CAKE",
+    "description": "Delight your guests with the perfect wedding cake that complements your vision and preferences. Our skilled bakers and designers will work with you to craft a delicious and beautiful cake that adds a sweet touch to your celebration. No wedding is truly complete without a spectacular wedding cake that not only looks stunning but tastes divine. The wedding cake is a centerpiece of the reception, symbolizing the sweet beginning of your journey as a married couple. We understand the importance of this delightful confection, and our dedicated team of expert bakers and designers are committed to creating a cake that is a true reflection of your style and taste. From the flavor to the design, we leave no stone unturned in ensuring that your cake is a masterpiece. Imagine layers of moist cake, adorned with intricately crafted fondant, embodying the theme and colors of your wedding. The taste, a blend of your favorite flavors, will leave your guests enchanted and craving for more. Our team will work closely with you, understanding your preferences and vision, to create a cake that exceeds your expectations. With \"The Perfect Cake\" service, you can rest assured that your wedding cake will not only be visually stunning but also a delectable delight that will leave a lasting impression on all your loved ones. Let us sweeten your special day with a cake that embodies the sweetness of your love.",
+    "price": 1000,
+    "image": "https://i.ibb.co/0j8WwJC/wedding-hero-caitlynnsims.jpg"
+  },
+  {
+    "id": 4,
+    "title": "TOAST & DANCE",
+    "description": "Elevate your wedding ambiance with expert advice and creative ideas for toasts and dancing. Our team will assist you in planning and styling this memorable part of your wedding, ensuring it's a beautiful and joyous occasion. A wedding celebration is a joyous occasion where every moment should be cherished, especially the toasts and dancing. These are the moments when laughter echoes, tears of joy flow, and love is celebrated in its truest form. To ensure these moments are as beautiful and memorable as possible, our \"Toast & Dance\" service is here to guide and enhance your wedding ambiance. The toasts are a heartfelt expression of love and well wishes from family and friends. Our experienced team will help you plan and structure these toasts, ensuring they capture the essence of your love story. From heartfelt speeches to witty anecdotes, we'll work with you to curate a toast session that is both touching and entertaining. Dancing is the universal language of celebration, and it unites everyone in joy. Whether you prefer an elegant waltz or a lively dance floor, we'll assist in styling and coordinating the perfect dance moments. Our goal is to make this part of your wedding a beautiful and seamless experience, where you and your loved ones can dance the night away in blissful celebration. Let us help you elevate your wedding ambiance, making the toasts and dance an unforgettable part of your special day. It's all about creating beautiful memories that will be etched in your hearts forever.",
+    "price": 1200,
+    "image": "https://i.ibb.co/bvf0Bpd/dance.jpg"
+  },
+  {
+    "id": 5,
+    "title": "THE CEREMONY",
+    "description": "Experience a meticulously planned wedding ceremony that runs seamlessly. Our team will coordinate every detail, creating a memorable ceremony that aligns with your vision and includes a delectable menu to suit your taste and budget. The wedding ceremony is the epitome of your love story, a moment where your journey as a couple is beautifully acknowledged and celebrated. Our service, \"The Ceremony,\" is dedicated to ensuring that this momentous occasion is planned and executed flawlessly. We understand that every couple has a unique vision for their ceremony, and we are here to make that vision a reality. From selecting the perfect venue to designing the layout and decor, we will meticulously coordinate every detail. Picture exchanging vows in a setting that perfectly mirrors your love story, with a carefully crafted menu that tantalizes your guests' taste buds and fits your budget. We believe that the ceremony should be a reflection of your unique love, and we strive to infuse your personalities into every aspect. Let us craft a wedding ceremony that leaves an indelible mark in your hearts and the hearts of all those present, a memory that will be treasured for a lifetime.",
+    "price": 2500,
+    "image": "https://i.ibb.co/XbXRyJ6/cermemony-11zon.jpg"
+  },
+  {
+    "id": 6,
+    "title": "PHOTOGRAPHY",
+    "description": "Capture the magic of your special day with professional photography services. Our skilled photographers will ensure every precious moment is documented, creating lasting memories and a beautiful album filled with love and joy. A picture is worth a thousand words, and on your wedding day, these pictures will tell the story of your love and celebration. Our \"Photography\" service is all about capturing the magic of your special day through the lens. We understand the significance of this day and the importance of preserving every precious moment. Our skilled photographers will be there, not just as observers, but as storytellers, capturing every emotion, every smile, and every loving glance. From the nervous excitement before the ceremony to the heartfelt toasts during the reception, we'll document it all. The result? A beautiful album that tells the tale of your love, filled with moments that will be cherished for generations. Our aim is to make you feel every emotion when you look at your wedding pictures, to transport you back to that day, reliving the joy and love. Let us be a part of your wedding, preserving the magic through the art of photography.",
+    "price": 2000,
+    "image": "https://i.ibb.co/kmd85cz/Wedding-photographer-takes-pictures-of-the-beautiful-bride-and-groom-1024x683.webp"
+  }
+]
