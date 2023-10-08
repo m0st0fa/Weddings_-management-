@@ -1,11 +1,30 @@
 
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+import app from "../../Firebase/Firebase.confing";
 import NavBar from "../NavBar/NavBar";
 
 
 const Login = () => {
+    const location = useLocation();
+    const navigate = useNavigate();
+    console.log('location in the login page', location);
+    const auth = getAuth(app)
+    const provider = new GoogleAuthProvider();
+
+    const handleGoogleSingUp = () => {
+        signInWithPopup(auth, provider)
+            .then(result => {
+                const user = result.user;
+                console.log(user)
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
+
     const { singIn } = useContext(AuthContext)
     const [succes, setSucces] = useState('')
     const handleLogin = event => {
@@ -20,10 +39,14 @@ const Login = () => {
             .then(result => {
                 console.log(result.user)
                 setSucces('User login succesfull')
+                // navigate after the login 
+                navigate(location?.state ? location.state : '/');
+
             })
             .catch(error => {
                 console.error(error)
             })
+
     }
 
     return (
@@ -49,6 +72,10 @@ const Login = () => {
                 <div className="form-control mt-6">
                     <button className="btn btn-primary">Login</button>
                 </div>
+                <div className="mx-auto items-center mt-6">
+                    <button onClick={handleGoogleSingUp} className="btn">Signup With Google</button>
+                </div>
+
             </form>
             <div className="text-center mx-auto">
                 {

@@ -14,10 +14,7 @@ const NavBar = () => {
     const Navlinks = <>
         <li> <Link to='/'>Home</Link></li>
         <li> <Link to='/'>Feautre</Link></li>
-        <li> <Link>Blog</Link></li>
-        <li> <Link to='/'>Shop</Link></li>
-
-
+        <li> <Link to='/'>Blog</Link></li>
 
     </>
     return (

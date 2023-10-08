@@ -12,12 +12,15 @@ export const AuthContext = createContext(null)
 const auth = getAuth(app);
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null)
+    const [loading, setLoading] = useState(true)
 
     const createUser = (email, password) => {
+        setLoading(true)
         return createUserWithEmailAndPassword(auth, email, password)
     }
 
     const logOut = () =>{
+        setLoading(true)
        return signOut(auth)
     }
 
@@ -25,12 +28,15 @@ const AuthProvider = ({ children }) => {
      const unsubscribe=  onAuthStateChanged(auth, currentuser =>{
         console.log("user in the currnet auth change", currentuser)
         setUser(currentuser)
+        setLoading(false);
      })
      return () =>{
         unsubscribe
+
      }
     }, [])
     const singIn = (email, password) => {
+        setLoading(true)
         return signInWithEmailAndPassword(auth, email, password)
     }
 
@@ -40,7 +46,8 @@ const AuthProvider = ({ children }) => {
         user,
         createUser,
         singIn,
-        logOut
+        logOut,
+        loading
 
 
     }

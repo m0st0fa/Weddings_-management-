@@ -10,7 +10,7 @@ const Services = () => {
             .then(data => setCarts(data))
             .catch(error => console.error('Error fetching data:', error));
     }, []);
-    console.log(carts)
+
     return (
         <div>
             <h2 className="text-5xl font-bold text-center text-teal-800"> Our Services </h2>
