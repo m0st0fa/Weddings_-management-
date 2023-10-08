@@ -5,13 +5,14 @@ import Home from "../Page/Home/Home";
 import Login from "../Page/Login/Login";
 import Register from "../Page/Register/Register";
 import ServiceDeatils from "../Page/ServiceDeatils/ServiceDeatils";
+import PriviteRoutes from "./PriviteRoutes";
 
 
 const routes = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
-        errorElement:<ErrorPage></ErrorPage>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
@@ -19,8 +20,10 @@ const routes = createBrowserRouter([
             },
             {
                 path: '/news/:id',
-                element: <ServiceDeatils></ServiceDeatils>,
-                loader: () => fetch('/service.json')   
+                element: <PriviteRoutes>
+                    <ServiceDeatils></ServiceDeatils>
+                </PriviteRoutes>,
+                loader: () => fetch('/service.json')
             },
             {
                 path: '/login',
