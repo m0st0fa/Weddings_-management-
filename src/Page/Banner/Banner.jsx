@@ -1,6 +1,6 @@
 const Banner = () => {
     const bannerStyle = {
-        backgroundImage: 'url("/public/top-wedding-planners-in-viet-nam-1.jpg")',
+        backgroundImage: 'url("https://i.ibb.co/86Q6Y7P/top-wedding-planners-in-viet-nam-1.jpg")',
     };
     
     return (

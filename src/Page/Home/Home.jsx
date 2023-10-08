@@ -7,7 +7,7 @@ import ForeverMemory from "./ForeverMemory";
  
  const Home = () => {
     return (
-        <div>
+        <div className="mb-10x">
             <NavBar></NavBar>
             <Banner></Banner>
             <Services></Services>

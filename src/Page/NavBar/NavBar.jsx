@@ -7,7 +7,7 @@ const NavBar = () => {
         <li> <Link to='/'>Feautre</Link></li>
         <li> <Link>Blog</Link></li>
         <li> <Link to='/'>Shop</Link></li>
-        <li> <Link to='/'>Login</Link></li>
+    
        
 
     </>
@@ -24,7 +24,7 @@ const NavBar = () => {
                 </div>
                 <div>
                     <div className="w-20 rounded-full">
-                        <img src="/public/nav.png" alt="img" />
+                        <img src="https://i.ibb.co/YjFhwZ1/nav.png" alt="img" />
                     </div>
                 </div>
 
@@ -35,7 +35,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Login</a>
+             <Link to='/login'>Login</Link>
             </div>
         </div>
     );

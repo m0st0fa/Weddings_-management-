@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import { BsFillArrowUpRightSquareFill } from "react-icons/bs";
 
 import { Link } from "react-router-dom";
 
@@ -16,8 +16,8 @@ const ServiceCart = ({ cart }) => {
         <div className="card-actions justify-center">
           {
             description.length > 100 ?
-              <p>{description.slice(0,80)}
-                <Link className="text-blue-600 items-center" to={`/news/${id}`}> Read more </Link>
+              <p>{description.slice(0,100)}
+                <Link className="text-blue-600 items-center flex" to={`/news/${id}`}>  Read more <BsFillArrowUpRightSquareFill></BsFillArrowUpRightSquareFill>  </Link>
               </p>
               : <p>{description}</p>
           }

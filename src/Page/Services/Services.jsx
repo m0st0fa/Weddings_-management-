@@ -5,10 +5,11 @@ import ServiceCart from "../serviceCart/ServiceCart";
 const Services = () => {
     const [carts, setCarts] = useState([])
     useEffect(() => {
-        fetch('/service.json')
+        fetch('service.json')
             .then(res => res.json())
             .then(data => setCarts(data))
-    }, [])
+            .catch(error => console.error('Error fetching data:', error));
+    }, []);
     console.log(carts)
     return (
         <div>
