@@ -29,7 +29,6 @@ const Register = () => {
             setRegisterError('Password should be at least 8 characters long and contain at least one letter, one number, and one special character.');
             return;
         }
-
         //  create User 
         createUser(email, password)
             .then(result => {
@@ -48,7 +47,7 @@ const Register = () => {
     return (
         <div>
             <NavBar />
-            <h2 className="text-3xl my-10 text-center font-bold text-blue-400">Place Register</h2>
+            <h2 className="text-3xl my-10 text-center font-bold text-black">Register Your Account</h2>
             <form onSubmit={handleRegister} className=" md:w-3/4 lg: w-1/2 mx-auto">
                 <div className="form-control">
                     <label className="label">
@@ -69,7 +68,7 @@ const Register = () => {
                     <input type="password" name="password" placeholder="password" className="input input-bordered" required />
                 </div>
                 <div className="form-control mt-6">
-                    <button className="btn btn-primary">Register</button>
+                    <button className="btn btn-accent">Register</button>
                 </div>
             </form>
             <div className="text-center mt-4 ">

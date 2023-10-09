@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Isabella Carmichael",
+      "age": 29,
+      "education": "Bachelor of Fine Arts (BFA) in Painting from Tulane University",
+      "bio": "Isabella Carmichael is a 29-year-old talented artist hailing from the vibrant city of New Orleans. She holds a Bachelor of Fine Arts (BFA) in Painting from Tulane University. With a passion for painting and a love for jazz music, she infuses her artwork with the spirit of her hometown. Isabella's dream is to open her own art studio and inspire others to embrace creativity as a form of self-expression.",
+      "image": "https://i.ibb.co/Zfdp5jZ/a2.png"
+    },
+    {
+      "id": 2,
+      "name": "Serena Holloway",
+      "age": 31,
+      "education": "Master's in Environmental Science from Stanford University",
+      "bio": "Serena Holloway is a 31-year-old dedicated environmentalist and advocate for sustainable living. She holds a Master's in Environmental Science from Stanford University. Growing up in a small, eco-conscious community, she developed a deep appreciation for nature and a desire to protect the planet. Serena works tirelessly to raise awareness about environmental issues and hopes to make a significant impact on conservation efforts.",
+      "image": "https://i.ibb.co/cYb2VJ8/a3.png"
+    },
+    {
+      "id": 3,
+      "name": "Aria Sterling",
+      "age": 27,
+      "education": "PhD in Biochemistry from MIT",
+      "bio": "Aria Sterling is a 27-year-old brilliant young scientist specializing in biochemistry. She holds a PhD in Biochemistry from MIT. Graduating top of her class, she has already made groundbreaking discoveries in genetic research. Aria's ultimate goal is to revolutionize healthcare by developing innovative treatments for genetic diseases, driven by her deep compassion for those suffering from these conditions.",
+      "image": "https://i.ibb.co/Zfdp5jZ/a2.png"
+    },
+    {
+      "id": 4,
+      "name": "Layla Harper",
+      "age": 26,
+      "education": "Bachelor's in Journalism and Photography from New York University",
+      "bio": "Layla Harper is a 26-year-old free-spirited travel blogger and photographer who has explored numerous countries, immersing herself in different cultures. She holds a Bachelor's in Journalism and Photography from New York University. Passionate about storytelling, Layla aims to capture the essence of each place she visits through her camera lens and share her experiences to inspire others to embrace adventure and broaden their horizons.",
+      "image": "https://i.ibb.co/V3d0b0g/a5.png"
+    },
+    {
+      "id": 5,
+      "name": "Evelyn Mercer",
+      "age": 33,
+      "education": "Master's in Social Work from Columbia University",
+      "bio": "Evelyn Mercer is a 33-year-old dedicated humanitarian and social worker, devoting her life to helping disadvantaged communities. She holds a Master's in Social Work from Columbia University. Inspired by her own challenging upbringing, she established a non-profit organization that provides education and support to underprivileged children. Evelyn's determination and empathy drive her mission to make a lasting, positive impact on the lives of those in need.",
+      "image": "https://i.ibb.co/V3d0b0g/a1.png"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Lawson",
+      "age": 28,
+      "education": "Doctor of Medicine (MD) from Johns Hopkins University",
+      "bio": "Sophia Lawson is a 28-year-old passionate physician committed to improving healthcare accessibility in underserved areas. She holds a Doctor of Medicine (MD) from Johns Hopkins University. Sophia dedicates her time to volunteering in medical missions globally, striving to provide quality healthcare to those in need.",
+      "image": "https://i.ibb.co/Zfdp5jZ/a2.png"
+    },
+    {
+      "id": 7,
+      "name": "Olivia Brooks",
+      "age": 30,
+      "education": "Master's in Business Administration (MBA) from Harvard Business School",
+      "bio": "Olivia Brooks, 30, is a dynamic entrepreneur and businesswoman with a keen interest in sustainable business practices. She holds a Master's in Business Administration (MBA) from Harvard Business School. Olivia aims to lead a company focused on environmentally friendly solutions to address global challenges.",
+      "image": "https://i.ibb.co/cYb2VJ8/a3.png"
+    },
+    {
+      "id": 8,
+      "name": "Emma Roberts",
+      "age": 25,
+      "education": "Bachelor's in Computer Science from Stanford University",
+      "bio": "Emma Roberts, 25, is a talented computer scientist with a passion for artificial intelligence. She holds a Bachelor's in Computer Science from Stanford University. Emma aspires to create innovative AI technologies that enhance the quality of life for people and drive positive change in society.",
+      "image": "https://i.ibb.co/Zfdp5jZ/a2.png"
+    },
+    {
+      "id": 9,
+      "name": "Grace Thompson",
+      "age": 32,
+      "education": "PhD in Astrophysics from Caltech",
+      "bio": "Grace Thompson, 32, is a brilliant astrophysicist and researcher. She holds a PhD in Astrophysics from Caltech. Grace has made significant contributions to our understanding of the cosmos and is driven to inspire the next generation of scientists through teaching and outreach programs.",
+      "image": "https://i.ibb.co/V3d0b0g/a5.png"
+    }
+    
+]

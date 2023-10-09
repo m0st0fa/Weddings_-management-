@@ -5,6 +5,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import app from "../../Firebase/Firebase.confing";
 import NavBar from "../NavBar/NavBar";
+import { FaGoogle, FaGithub } from "react-icons/fa";
 
 
 const Login = () => {
@@ -52,7 +53,7 @@ const Login = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <h2 className="text-3xl my-10 text-center font-bold text-blue-400">Place Login</h2>
+            <h2 className="text-3xl my-10 text-center font-bold text-black">Login to your account </h2>
             <form onSubmit={handleLogin} className=" md:w-3/4 lg: w-1/2 mx-auto">
                 <div className="form-control">
                     <label className="label">
@@ -70,13 +71,17 @@ const Login = () => {
                     </label>
                 </div>
                 <div className="form-control mt-6">
-                    <button className="btn btn-primary">Login</button>
+                    <button className="btn btn-accent">Login</button>
                 </div>
-                <div className="mx-auto items-center mt-6">
-                    <button onClick={handleGoogleSingUp} className="btn">Signup With Google</button>
-                </div>
-
             </form>
+            <div className="text-center mx-auto my-6">
+                <button onClick={handleGoogleSingUp} className="btn text-black">
+                    <FaGoogle className="text-red-400"></FaGoogle>
+                    Google</button>
+                <button onClick={handleGoogleSingUp} className="btn ml-2 text-black">
+                    <FaGithub className="text-red-400"></FaGithub>
+                    Github</button>
+            </div>
             <div className="text-center mx-auto">
                 {
                     succes && <p className="text-green-600">{succes}</p>
