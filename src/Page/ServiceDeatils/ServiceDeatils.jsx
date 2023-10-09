@@ -12,7 +12,8 @@ const ServiceDeatils = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <div className="min-h-16 bg-gray-200">
+            <div className="min-h-16 bg-gray-200" data-aos="fade-up"
+                data-aos-duration="3000">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img className="max-w-sm rounded-lg shadow-2xl" src={news.image} />
                     <div>

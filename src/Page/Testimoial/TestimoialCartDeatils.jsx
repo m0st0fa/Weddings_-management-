@@ -4,16 +4,17 @@ import NavBar from "../NavBar/NavBar";
 
 
 const TestimoialCartDeatils = () => {
-    const {id} = useParams()
+    const { id } = useParams()
     const Deatils = useLoaderData()
     const IdInt = parseInt(id)
-    const deatils = Deatils.find((deatils)=> deatils.id === IdInt)
+    const deatils = Deatils.find((deatils) => deatils.id === IdInt)
     return (
         <div>
             <div>
-            <NavBar></NavBar>
+                <NavBar></NavBar>
             </div>
-             <div className=" bg-amber-200 my-10">
+            <div className=" bg-amber-200 my-10" data-aos="fade-up"
+                data-aos-duration="3000">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img className="w-full" src={deatils.image} />
                     <div>
@@ -24,7 +25,7 @@ const TestimoialCartDeatils = () => {
                 </div>
             </div>
             <div>
-            <Footer></Footer>
+                <Footer></Footer>
             </div>
         </div>
     );

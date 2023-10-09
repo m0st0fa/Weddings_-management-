@@ -14,7 +14,8 @@ const Services = () => {
     return (
         <div>
             <h2 className="text-5xl font-bold text-center text-teal-800"> Our Services </h2>
-            <div className="grid gap-3 md:grid-cols-3 my-10">
+            <div className="grid gap-3 md:grid-cols-3 my-10" data-aos="fade-up"
+                data-aos-duration="3000">
 
                 {
                     carts.map(cart => <ServiceCart key={cart.id} cart={cart}></ServiceCart>)

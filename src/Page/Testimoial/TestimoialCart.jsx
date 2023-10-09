@@ -9,7 +9,8 @@ const TestimoialCart = ({ item }) => {
     const { name, image,bio,id } = item;
 
     return (
-        <div className="card bg-blue-300 rounded">
+        <div className="card bg-blue-300 rounded" data-aos="fade-up"
+        data-aos-duration="3000">
             <figure><img className="" src={image} alt="Shoes" /></figure>
               <div className="card-body">
                 <h2 className="card-title">{name}</h2>
