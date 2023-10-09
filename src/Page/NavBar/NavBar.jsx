@@ -13,8 +13,8 @@ const NavBar = () => {
 
     const Navlinks = <>
         <li> <Link to='/'>Home</Link></li>
-        <li> <Link to='/'>Feautre</Link></li>
-        <li> <Link to='/testimonilas'>Testtimonials</Link></li>
+        <li> <Link to='/login'>Login</Link></li>
+        <li> <Link to='/testimonilas'>Testimonials</Link></li>
 
     </>
     return (
@@ -42,12 +42,14 @@ const NavBar = () => {
             </div>
             <div className="navbar-end">
                 {
-                    user ? <button onClick={handleSingOut} className="btn">Sign Out</button>
+                    user ?<div className="flex items-center gap-2">
+                        <h3 >{user.displayName}</h3>
+                        <img src={user.photoURL} alt="" />
+                        <button onClick={handleSingOut} className="btn">Sign Out</button>
+                       </div>
                         :
                         <Link to='/login'>Login</Link>
                 }
-
-
             </div>
         </div>
     );

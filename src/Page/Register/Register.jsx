@@ -3,7 +3,6 @@ import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import NavBar from "../NavBar/NavBar";
-import Swal from 'sweetalert2';
 
 const Register = () => {
     const [registerError, setRegisterError] = useState('');
@@ -14,6 +13,7 @@ const Register = () => {
         event.preventDefault();
         const form = new FormData(event.currentTarget);
         const name = form.get('name');
+        const photo = form.get('')
         const email = form.get('email');
         const password = form.get('password');
         console.log(name, email, password);
@@ -23,10 +23,10 @@ const Register = () => {
         setSucces('')
 
         // password validate
-        const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+        const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/;
 
         if (!passwordRegex.test(password)) {
-            setRegisterError('Password should be at least 8 characters long and contain at least one letter, one number, and one special character.');
+            setRegisterError('Password should be at least 6 characters long and contain at least one letter, one number, and one special character.');
             return;
         }
         //  create User 
@@ -54,6 +54,12 @@ const Register = () => {
                         <span className="label-text">Name</span>
                     </label>
                     <input type="text" name="name" placeholder="Your Name" className="input input-bordered" required />
+                </div>
+                <div className="form-control">
+                    <label className="label">
+                        <span className="label-text"> Your Photo</span>
+                    </label>
+                    <input type="text" name="photo" placeholder="Your photo" className="input input-bordered" required />
                 </div>
                 <div className="form-control">
                     <label className="label">
